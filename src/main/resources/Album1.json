@@ -1,0 +1,14 @@
+{
+  "ID":1234,
+  "nome":"Master of Puppets",
+  "source_cover":"Capa",
+  "soundtrack":[
+  {
+    "duracao": 240,
+    "id": 456,
+    "idAlbum": 1234,
+    "idArtista": 890,
+    "letra": "LyricsSong",
+    "nome": "Nome da Musica",
+    "source": "Desenho"
+  }]}
