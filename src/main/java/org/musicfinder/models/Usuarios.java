@@ -1,3 +1,5 @@
+package org.musicfinder.models;
+
 public class Usuarios {
         private Integer ID;
         private String nome;
