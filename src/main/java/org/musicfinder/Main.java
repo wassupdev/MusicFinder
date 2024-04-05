@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import org.musicfinder.models.Admin;
 import org.musicfinder.models.Album;
 import org.musicfinder.models.Musica;
 
@@ -34,8 +35,11 @@ public class Main {
             ObjectMapper om = new ObjectMapper();
             om.setDefaultPropertyInclusion(JsonInclude.Include.NON_NULL);
             String jsonString = om.writeValueAsString(musica);
-            System.out.println(jsonString);
+            //System.out.println(jsonString);
         }
+        Admin admin = new Admin("João Silva", 30, "joaosilva", "senha123");
+        System.out.println(admin.getUser_type());
+        System.out.println(admin.getNome());
 
 
 //        List<Musica> minhaSoundtrack = new ArrayList();
