@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 
-public class Usuarios {
+public abstract class Usuarios {
         private Integer ID;
         private String nome;
         private Integer idade;
